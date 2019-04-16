@@ -1,0 +1,24 @@
+{
+  "name": "myapp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "set DEBUG=myapp:* & nodemon ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "lodash.isnumber": "^3.0.3",
+    "morgan": "~1.9.0",
+    "mysql2": "^1.6.5",
+    "qiniu": "^7.2.1",
+    "request": "^2.88.0",
+    "sequelize": "^4.42.0",
+    "tenpay": "^2.1.16"
+  },
+  "devDependencies": {
+    "jsonwebtoken": "^8.5.0"
+  }
+}
